@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #ff6311;
+    --cor-secundaria: #2c2b28;
+}
+
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif
+    
+}
+
+.cabecalho-menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 55px;
+}
+
+.cabecalho-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    background-image: url("../img/banner.png");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.principal-conteudo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    position: relative;
+    top: 450px;
+    left: 50px;
+}
+
+.principal-conteudo h1  {
+    font-size: 60px;
+}
+
+.principal-conteudo a{
+    width: 200px;
+    height: 35px;
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid --cor-primaria;
+    border-radius: 25px;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: var(--cor-secundaria);
+}
+
+.card-img figure img{
+    width: 100%;
+}
+
+.card-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.card-conteudo p{
+    text-align: center;
+}
+
+section{
+    padding: 20px 50px;
+}
+
+.secao-dance{
+    background-color: var(--cor-primaria);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cabecalho-secao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho-secao p{
+    text-align: center;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
